@@ -17,3 +17,8 @@ Donde el HTML, hay un apartado con 4 lineas que son de <a href="https://addons.m
 PARA PONER LA IMAGEN GRANDE DEBAJO
 
 Debajo de <div class="red-panda"> ponemos la siguiente linea de texto, que es lo mimso que hemos puesto antes: <img src= "red-panda.png">. Aquí lo que hacemos es insertar la imagen pero esta vez debajo del cuadro rojo.
+  
+PARA PONER EL CSS EN UN ARCHIVO CSS
+
+Primero vamos a crear el archivo .css, que yo le he llamado style.css. Luego recortamos el texto de css que este dentro del archivo .html (que va de <style> a </style>) y lo pegamos en el archivo .css. Luego lo que haremos será borrar <style> y </style> ya que no son necesarios una vez está puesto en el archivo .css. 
+Despues de esto, iremos de nuevo al archivo .html y vemos que a la séptima línea hay un link ref. Lo que haremos será ir a la línea de debajo y escribir lo siguiente: <link ref="style.css" rel="stylesheet">. Esto lo que significa es que hacemos referencia a que este vinculado al archivo .css con el "link ref="style.css" y el "rel="stylesheet" es para que relacione con una hoja de estilo, que en este caso es el .css.
